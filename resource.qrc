@@ -40,7 +40,7 @@
         <file>resource/btn_skin_n.png</file>
         <file>resource/circulation.png</file>
         <file>resource/diantai.png</file>
-        <file>resource/download.png</file>
+        <file>resource/download-01.png</file>
         <file>resource/fm.png</file>
         <file>resource/format.ico</file>
         <file>resource/friend.png</file>
@@ -81,43 +81,43 @@
         <file>resource/wyyPick.png</file>
         <file>resource/wyyYellow.png</file>
         <file>resource/yun.png</file>
-        <file>resource/绑定.png</file>
-        <file>resource/比卡丘不皮.jpg</file>
-        <file>resource/标准.png</file>
-        <file>resource/播客.png</file>
-        <file>resource/词.png</file>
-        <file>resource/等级.png</file>
-        <file>resource/个人信息.png</file>
-        <file>resource/关闭.png</file>
-        <file>resource/后退.png</file>
-        <file>resource/话筒.png</file>
-        <file>resource/加.png</file>
-        <file>resource/客服.png</file>
-        <file>resource/皮肤.png</file>
-        <file>resource/签到.png</file>
-        <file>resource/签到2.png</file>
-        <file>resource/前进.png</file>
-        <file>resource/商城.png</file>
-        <file>resource/上一曲1.png</file>
-        <file>resource/上一曲2.png</file>
-        <file>resource/设置.png</file>
-        <file>resource/收藏.png</file>
-        <file>resource/搜索.png</file>
-        <file>resource/退出.png</file>
-        <file>resource/微博.png</file>
-        <file>resource/下一曲1.png</file>
-        <file>resource/下一曲2.png</file>
-        <file>resource/下载.png</file>
-        <file>resource/心.png</file>
-        <file>resource/心动.png</file>
-        <file>resource/心动2.png</file>
-        <file>resource/音乐条.psd</file>
-        <file>resource/邮件.png</file>
-        <file>resource/云盘.png</file>
-        <file>resource/暂停.png</file>
-        <file>resource/中心.png</file>
-        <file>resource/最大化.png</file>
-        <file>resource/最近播放.png</file>
-        <file>resource/最小化.png</file>
+        <file>resource/bind.png</file>
+        <file>resource/avatar.jpg</file>
+        <file>resource/standard.png</file>
+        <file>resource/podcast.png</file>
+        <file>resource/word.png</file>
+        <file>resource/level.png</file>
+        <file>resource/info.png</file>
+        <file>resource/close.png</file>
+        <file>resource/back.png</file>
+        <file>resource/microphone.png</file>
+        <file>resource/plus.png</file>
+        <file>resource/customer_service.png</file>
+        <file>resource/skin.png</file>
+        <file>resource/sign_in-01.png</file>
+        <file>resource/sign_in-02.png</file>
+        <file>resource/go_ahead.png</file>
+        <file>resource/mall.png</file>
+        <file>resource/previous_piece-01.png</file>
+        <file>resource/previous_piece-02.png</file>
+        <file>resource/setting.png</file>
+        <file>resource/collect.png</file>
+        <file>resource/search-02.png</file>
+        <file>resource/exit.png</file>
+        <file>resource/weibo.png</file>
+        <file>resource/next_track-01.png</file>
+        <file>resource/next_track-02.png</file>
+        <file>resource/download-02.png</file>
+        <file>resource/heart.png</file>
+        <file>resource/heartbeat-01.png</file>
+        <file>resource/heartbeat-02.png</file>
+        <file>resource/music_bar.psd</file>
+        <file>resource/email.png</file>
+        <file>resource/cloud_disk.png</file>
+        <file>resource/pause.png</file>
+        <file>resource/center.png</file>
+        <file>resource/max.png</file>
+        <file>resource/recently_played.png</file>
+        <file>resource/min.png</file>
     </qresource>
 </RCC>
