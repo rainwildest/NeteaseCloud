@@ -140,15 +140,41 @@ QTabBar::tab:selected {
                 <layout class="QHBoxLayout" name="horizontalLayout_3">
                  <item>
                   <widget class="QPushButton" name="pushButton_15">
+                   <property name="minimumSize">
+                    <size>
+                     <width>90</width>
+                     <height>28</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);
+border-style: none;
+border-radius: 14px;
+font-size: 13px;
+background-color: rgb(236, 65, 65);</string>
+                   </property>
                    <property name="text">
-                    <string>PushButton</string>
+                    <string>全部播放</string>
                    </property>
                   </widget>
                  </item>
                  <item>
                   <widget class="QPushButton" name="pushButton_14">
+                   <property name="minimumSize">
+                    <size>
+                     <width>90</width>
+                     <height>28</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: rgb(255, 255, 255);
+border-style: none;
+border-radius: 14px;
+font-size: 13px;
+background-color: rgb(236, 65, 65);</string>
+                   </property>
                    <property name="text">
-                    <string>PushButton</string>
+                    <string>匹配音乐</string>
                    </property>
                   </widget>
                  </item>
@@ -171,7 +197,33 @@ QTabBar::tab:selected {
                 </layout>
                </item>
                <item>
-                <widget class="QTableWidget" name="tableWidget"/>
+                <widget class="QTableWidget" name="tableWidget">
+                 <column>
+                  <property name="text">
+                   <string>音乐标题</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>歌手</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>专辑</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>时长</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>大小</string>
+                  </property>
+                 </column>
+                </widget>
                </item>
               </layout>
              </widget>
@@ -1130,9 +1182,24 @@ QPushButton:hover {
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
+       <string notr="true">QWidget#widget_4 {
+	background-color: rgb(255, 255, 255);
+	border-top: 1px solid rgb(219,219,219);
+}</string>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
        <item>
         <widget class="QLabel" name="label_5">
          <property name="minimumSize">
@@ -1174,8 +1241,30 @@ border-image: url(:/resource/widget3.png);</string>
        </item>
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="spacing">
+            <number>10</number>
+           </property>
            <item>
             <widget class="QLabel" name="label_7">
              <property name="minimumSize">
@@ -1193,14 +1282,14 @@ border-image: url(:/resource/widget3.png);</string>
             <widget class="QPushButton" name="pushButton_16">
              <property name="minimumSize">
               <size>
-               <width>20</width>
-               <height>20</height>
+               <width>18</width>
+               <height>18</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
-               <width>20</width>
-               <height>20</height>
+               <width>18</width>
+               <height>18</height>
               </size>
              </property>
              <property name="styleSheet">
@@ -1220,6 +1309,22 @@ border-image: url(:/resource/heart.png)</string>
             <string>歌手名</string>
            </property>
           </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
        </item>
@@ -1241,8 +1346,20 @@ border-image: url(:/resource/heart.png)</string>
        </item>
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetDefaultConstraint</enum>
+         </property>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <property name="spacing">
+            <number>18</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
            <item>
             <spacer name="horizontalSpacer_20">
              <property name="orientation">
@@ -1258,6 +1375,18 @@ border-image: url(:/resource/heart.png)</string>
            </item>
            <item>
             <widget class="QPushButton" name="pushButton_21">
+             <property name="minimumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
              <property name="text">
               <string>PushButton</string>
              </property>
@@ -1265,6 +1394,18 @@ border-image: url(:/resource/heart.png)</string>
            </item>
            <item>
             <widget class="QPushButton" name="pushButton_20">
+             <property name="minimumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
              <property name="text">
               <string>PushButton</string>
              </property>
@@ -1272,6 +1413,18 @@ border-image: url(:/resource/heart.png)</string>
            </item>
            <item>
             <widget class="QPushButton" name="pushButton_19">
+             <property name="minimumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
              <property name="text">
               <string>PushButton</string>
              </property>
@@ -1279,6 +1432,18 @@ border-image: url(:/resource/heart.png)</string>
            </item>
            <item>
             <widget class="QPushButton" name="pushButton_18">
+             <property name="minimumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
              <property name="text">
               <string>PushButton</string>
              </property>
@@ -1286,6 +1451,18 @@ border-image: url(:/resource/heart.png)</string>
            </item>
            <item>
             <widget class="QPushButton" name="pushButton_17">
+             <property name="minimumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
              <property name="text">
               <string>PushButton</string>
              </property>
@@ -1308,6 +1485,9 @@ border-image: url(:/resource/heart.png)</string>
          </item>
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <property name="spacing">
+            <number>10</number>
+           </property>
            <item>
             <spacer name="horizontalSpacer_22">
              <property name="orientation">
@@ -1333,6 +1513,44 @@ border-image: url(:/resource/heart.png)</string>
            </item>
            <item>
             <widget class="QSlider" name="horizontalSlider">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>10</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>15</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+
+QSlider::handle:horizontal 
+{
+	height: 8px;  
+	width: 8px;
+	background-color:  rgb(236, 65, 65);
+	margin: -3px 0px -3px 0px;
+	border-radius: 4px;
+}
+
+QSlider::groove:horizontal
+{
+	height: 3px;
+	background-color:rgb(219,219,219);
+}
+
+QSlider::add-page:horizontal {
+	background-color: rgb(219,219,219);
+}
+
+QSlider::sub-page:horizontal{
+	background-color: rgb(236, 65, 65);
+}</string>
+             </property>
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
              </property>
@@ -1371,13 +1589,13 @@ border-image: url(:/resource/heart.png)</string>
           <widget class="QPushButton" name="pushButton_22">
            <property name="minimumSize">
             <size>
-             <width>35</width>
+             <width>30</width>
              <height>30</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>35</width>
+             <width>30</width>
              <height>30</height>
             </size>
            </property>
