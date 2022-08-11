@@ -15,7 +15,14 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void initTitle();
+    void changeMaxPix();
+protected:
+    bool eventFilter(QObject *object, QEvent *event);
+
 private:
     Ui::MainWindow *ui;
+    QPoint dragPosition; /* 鼠标上一次的位置 */
+    bool hasClick = false;
 };
 #endif // MAINWINDOW_H

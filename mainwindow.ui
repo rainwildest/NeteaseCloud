@@ -527,7 +527,7 @@ QListWidget::Item:selected {
      </widget>
     </item>
     <item row="0" column="0" colspan="2">
-     <widget class="QWidget" name="widget" native="true">
+     <widget class="QWidget" name="titleWidget" native="true">
       <property name="maximumSize">
        <size>
         <width>16777215</width>
@@ -682,7 +682,7 @@ border-radius: 10px;</string>
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit">
+        <widget class="QLineEdit" name="lineEdit_search">
          <property name="maximumSize">
           <size>
            <width>160</width>
@@ -692,8 +692,9 @@ border-radius: 10px;</string>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(217, 59, 59);
 border-radius: 15px;
-padding: 0px 20px;
 font-size: 14;
+padding-left: 5px;
+padding-right: 10px;
 font-family:&quot;微软雅黑&quot;;
 color: rgb(255,255,255);</string>
          </property>
